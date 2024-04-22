@@ -1,0 +1,28 @@
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Isso permitirá que os ícones se ajustem conforme o tamanho da tela */
+}
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda na parte inferior de cada seção */
+    border: 1px solid black; /* Adiciona uma borda preta */
+}
+
+
+.icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #aaa; /* Adiciona uma borda em torno de cada ícone */
+}
+
+.resized-image {
+    max-width: 50%; 
+    display: block;
+    margin: 0 auto; 
+}
+
